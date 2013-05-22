@@ -29,6 +29,9 @@
 		8DF86E1716EF54AB00C65F23 /* VBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF86E1516EF54AB00C65F23 /* VBSecondViewController.m */; };
 		BA9A56AC174D095A00C93B64 /* KiwiPlaygroundSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A56AB174D095A00C93B64 /* KiwiPlaygroundSpec.m */; };
 		BA9A56B0174D0A6E00C93B64 /* ParseHelperMacrosSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A56AE174D0A6E00C93B64 /* ParseHelperMacrosSpec.m */; };
+		BA9A56B8174D0F0700C93B64 /* NSDictionary+KeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A56B7174D0F0700C93B64 /* NSDictionary+KeyPath.m */; };
+		BA9A56B9174D0F0700C93B64 /* NSDictionary+KeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A56B7174D0F0700C93B64 /* NSDictionary+KeyPath.m */; };
+		BA9A56BC174D14DD00C93B64 /* NSDictionary+KeyPathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A56BA174D14DD00C93B64 /* NSDictionary+KeyPathSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		BA9A56AB174D095A00C93B64 /* KiwiPlaygroundSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiwiPlaygroundSpec.m; sourceTree = "<group>"; };
 		BA9A56AD174D09C800C93B64 /* ParseHelperMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseHelperMacros.h; sourceTree = "<group>"; };
 		BA9A56AE174D0A6E00C93B64 /* ParseHelperMacrosSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseHelperMacrosSpec.m; sourceTree = "<group>"; };
+		BA9A56B6174D0F0700C93B64 /* NSDictionary+KeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+KeyPath.h"; path = "Categories/NSDictionary+KeyPath.h"; sourceTree = "<group>"; };
+		BA9A56B7174D0F0700C93B64 /* NSDictionary+KeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+KeyPath.m"; path = "Categories/NSDictionary+KeyPath.m"; sourceTree = "<group>"; };
+		BA9A56BA174D14DD00C93B64 /* NSDictionary+KeyPathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KeyPathSpec.m"; sourceTree = "<group>"; };
 		F2EF89EE6A934770911E1034 /* Pods-VBiOSUtilsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBiOSUtilsTests.xcconfig"; path = "Pods/Pods-VBiOSUtilsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -166,6 +172,7 @@
 				8DF86DFC16EF542900C65F23 /* Supporting Files */,
 				BA9A56AB174D095A00C93B64 /* KiwiPlaygroundSpec.m */,
 				BA9A56AE174D0A6E00C93B64 /* ParseHelperMacrosSpec.m */,
+				BA9A56BA174D14DD00C93B64 /* NSDictionary+KeyPathSpec.m */,
 			);
 			path = VBiOSUtilsTests;
 			sourceTree = "<group>";
@@ -202,6 +209,7 @@
 		8DF86E1816EF54BF00C65F23 /* VBiOSUtils */ = {
 			isa = PBXGroup;
 			children = (
+				BA9A56B1174D0E1E00C93B64 /* Categories */,
 				8DF86E1916EF54D100C65F23 /* Macros */,
 			);
 			path = VBiOSUtils;
@@ -213,6 +221,15 @@
 				BA9A56AD174D09C800C93B64 /* ParseHelperMacros.h */,
 			);
 			path = Macros;
+			sourceTree = "<group>";
+		};
+		BA9A56B1174D0E1E00C93B64 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BA9A56B6174D0F0700C93B64 /* NSDictionary+KeyPath.h */,
+				BA9A56B7174D0F0700C93B64 /* NSDictionary+KeyPath.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +380,7 @@
 				8DF86DD416EF542800C65F23 /* VBAppDelegate.m in Sources */,
 				8DF86E1616EF54AB00C65F23 /* VBFirstViewController.m in Sources */,
 				8DF86E1716EF54AB00C65F23 /* VBSecondViewController.m in Sources */,
+				BA9A56B8174D0F0700C93B64 /* NSDictionary+KeyPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +390,8 @@
 			files = (
 				BA9A56AC174D095A00C93B64 /* KiwiPlaygroundSpec.m in Sources */,
 				BA9A56B0174D0A6E00C93B64 /* ParseHelperMacrosSpec.m in Sources */,
+				BA9A56B9174D0F0700C93B64 /* NSDictionary+KeyPath.m in Sources */,
+				BA9A56BC174D14DD00C93B64 /* NSDictionary+KeyPathSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
