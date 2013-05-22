@@ -1,1 +1,7 @@
 platform :ios, '5.0'
+
+
+# Add Kiwi as an exclusive dependency for the AmazingAppTests target
+target :VBiOSUtilsTests, :exclusive => true do
+   pod 'Kiwi'
+end

@@ -13,6 +13,8 @@
 */
 #define NSNULL_IF_NIL(o) (o == nil ? [NSNull null] : o)
 
-#define TYPE_CHECK(o, c) ([o isKindOfClass:[c class]] ? (c *)o : nil)
+/*! Returns the same object if the type is correct or nil if type is incorrect
+*/
+#define TYPE_CHECKED(o, c) ([o isKindOfClass:[c class]] ? (c *)o : nil)
 
 #endif

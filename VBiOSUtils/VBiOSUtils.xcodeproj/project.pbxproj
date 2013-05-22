@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A575D71B09640B392B046AA /* libPods-VBiOSUtilsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E6867F551E4EEEADA5A869 /* libPods-VBiOSUtilsTests.a */; };
 		8DF86DC416EF542800C65F23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF86DC316EF542800C65F23 /* UIKit.framework */; };
 		8DF86DC616EF542800C65F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF86DC516EF542800C65F23 /* Foundation.framework */; };
 		8DF86DC816EF542800C65F23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF86DC716EF542800C65F23 /* CoreGraphics.framework */; };
@@ -22,11 +23,12 @@
 		8DF86DF716EF542800C65F23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF86DC316EF542800C65F23 /* UIKit.framework */; };
 		8DF86DF816EF542800C65F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF86DC516EF542800C65F23 /* Foundation.framework */; };
 		8DF86E0016EF542900C65F23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8DF86DFE16EF542900C65F23 /* InfoPlist.strings */; };
-		8DF86E0316EF542900C65F23 /* VBiOSUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF86E0216EF542900C65F23 /* VBiOSUtilsTests.m */; };
 		8DF86E0F16EF548E00C65F23 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF86E0D16EF548E00C65F23 /* first.png */; };
 		8DF86E1016EF548E00C65F23 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF86E0E16EF548E00C65F23 /* first@2x.png */; };
 		8DF86E1616EF54AB00C65F23 /* VBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF86E1316EF54AB00C65F23 /* VBFirstViewController.m */; };
 		8DF86E1716EF54AB00C65F23 /* VBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF86E1516EF54AB00C65F23 /* VBSecondViewController.m */; };
+		BA9A56AC174D095A00C93B64 /* KiwiPlaygroundSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A56AB174D095A00C93B64 /* KiwiPlaygroundSpec.m */; };
+		BA9A56B0174D0A6E00C93B64 /* ParseHelperMacrosSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9A56AE174D0A6E00C93B64 /* ParseHelperMacrosSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78E6867F551E4EEEADA5A869 /* libPods-VBiOSUtilsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VBiOSUtilsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF86DC016EF542800C65F23 /* VBiOSUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBiOSUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF86DC316EF542800C65F23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8DF86DC516EF542800C65F23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,14 +62,16 @@
 		8DF86DF516EF542800C65F23 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8DF86DFD16EF542900C65F23 /* VBiOSUtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VBiOSUtilsTests-Info.plist"; sourceTree = "<group>"; };
 		8DF86DFF16EF542900C65F23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8DF86E0116EF542900C65F23 /* VBiOSUtilsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBiOSUtilsTests.h; sourceTree = "<group>"; };
-		8DF86E0216EF542900C65F23 /* VBiOSUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBiOSUtilsTests.m; sourceTree = "<group>"; };
 		8DF86E0D16EF548E00C65F23 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		8DF86E0E16EF548E00C65F23 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		8DF86E1216EF54AB00C65F23 /* VBFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFirstViewController.h; sourceTree = "<group>"; };
 		8DF86E1316EF54AB00C65F23 /* VBFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFirstViewController.m; sourceTree = "<group>"; };
 		8DF86E1416EF54AB00C65F23 /* VBSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBSecondViewController.h; sourceTree = "<group>"; };
 		8DF86E1516EF54AB00C65F23 /* VBSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBSecondViewController.m; sourceTree = "<group>"; };
+		BA9A56AB174D095A00C93B64 /* KiwiPlaygroundSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KiwiPlaygroundSpec.m; sourceTree = "<group>"; };
+		BA9A56AD174D09C800C93B64 /* ParseHelperMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseHelperMacros.h; sourceTree = "<group>"; };
+		BA9A56AE174D0A6E00C93B64 /* ParseHelperMacrosSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseHelperMacrosSpec.m; sourceTree = "<group>"; };
+		F2EF89EE6A934770911E1034 /* Pods-VBiOSUtilsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VBiOSUtilsTests.xcconfig"; path = "Pods/Pods-VBiOSUtilsTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,7 @@
 				8DF86DF616EF542800C65F23 /* SenTestingKit.framework in Frameworks */,
 				8DF86DF716EF542800C65F23 /* UIKit.framework in Frameworks */,
 				8DF86DF816EF542800C65F23 /* Foundation.framework in Frameworks */,
+				5A575D71B09640B392B046AA /* libPods-VBiOSUtilsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +106,7 @@
 				8DF86DFB16EF542900C65F23 /* VBiOSUtilsTests */,
 				8DF86DC216EF542800C65F23 /* Frameworks */,
 				8DF86DC116EF542800C65F23 /* Products */,
+				F2EF89EE6A934770911E1034 /* Pods-VBiOSUtilsTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +126,7 @@
 				8DF86DC516EF542800C65F23 /* Foundation.framework */,
 				8DF86DC716EF542800C65F23 /* CoreGraphics.framework */,
 				8DF86DF516EF542800C65F23 /* SenTestingKit.framework */,
+				78E6867F551E4EEEADA5A869 /* libPods-VBiOSUtilsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,9 +163,9 @@
 		8DF86DFB16EF542900C65F23 /* VBiOSUtilsTests */ = {
 			isa = PBXGroup;
 			children = (
-				8DF86E0116EF542900C65F23 /* VBiOSUtilsTests.h */,
-				8DF86E0216EF542900C65F23 /* VBiOSUtilsTests.m */,
 				8DF86DFC16EF542900C65F23 /* Supporting Files */,
+				BA9A56AB174D095A00C93B64 /* KiwiPlaygroundSpec.m */,
+				BA9A56AE174D0A6E00C93B64 /* ParseHelperMacrosSpec.m */,
 			);
 			path = VBiOSUtilsTests;
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 		8DF86E1916EF54D100C65F23 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				BA9A56AD174D09C800C93B64 /* ParseHelperMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -230,10 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DF86E0916EF542900C65F23 /* Build configuration list for PBXNativeTarget "VBiOSUtilsTests" */;
 			buildPhases = (
+				3A3CE4E7C4FB4910896330FC /* Check Pods Manifest.lock */,
 				8DF86DEF16EF542800C65F23 /* Sources */,
 				8DF86DF016EF542800C65F23 /* Frameworks */,
 				8DF86DF116EF542800C65F23 /* Resources */,
 				8DF86DF216EF542800C65F23 /* ShellScript */,
+				033D441F155D481EA364DC93 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,6 +311,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		033D441F155D481EA364DC93 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-VBiOSUtilsTests-resources.sh\"\n";
+		};
+		3A3CE4E7C4FB4910896330FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 		8DF86DF216EF542800C65F23 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,7 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF86E0316EF542900C65F23 /* VBiOSUtilsTests.m in Sources */,
+				BA9A56AC174D095A00C93B64 /* KiwiPlaygroundSpec.m in Sources */,
+				BA9A56B0174D0A6E00C93B64 /* ParseHelperMacrosSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +503,7 @@
 		};
 		8DF86E0A16EF542900C65F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EF89EE6A934770911E1034 /* Pods-VBiOSUtilsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VBiOSUtils.app/VBiOSUtils";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -480,6 +521,7 @@
 		};
 		8DF86E0B16EF542900C65F23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EF89EE6A934770911E1034 /* Pods-VBiOSUtilsTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VBiOSUtils.app/VBiOSUtils";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -514,6 +556,7 @@
 				8DF86E0816EF542900C65F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DF86E0916EF542900C65F23 /* Build configuration list for PBXNativeTarget "VBiOSUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +565,7 @@
 				8DF86E0B16EF542900C65F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
